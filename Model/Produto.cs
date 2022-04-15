@@ -1,7 +1,7 @@
 namespace cadProdutos.Models
 {
         public class Produto{
-        public long idProduto { get; set;}
+        public long Id { get; set;}
         
         public string? nome { get; set; }
 

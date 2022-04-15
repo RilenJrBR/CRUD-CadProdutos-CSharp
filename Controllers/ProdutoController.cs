@@ -6,7 +6,7 @@ namespace cadProdutos.Controllers;
 [Route("[controller]")]
 public class ProdutosController : ControllerBase{
 
-    public IActionResult Cadastrar(int? id){
+    /*public IActionResult Cadastrar(int? id){
         if()
-    }
+    }*/
 }

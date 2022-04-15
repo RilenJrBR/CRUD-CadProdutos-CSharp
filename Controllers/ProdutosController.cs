@@ -15,7 +15,5 @@ public class ProdutosController : ControllerBase{
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(nameof(GetProduto), new { id = produto.Id }, produto);
-    }
-
-    
+    }    
 }

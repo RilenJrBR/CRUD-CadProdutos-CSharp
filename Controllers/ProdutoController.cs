@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using cadProdutos.Models;
 
 namespace cadProdutos.Controllers;
 
@@ -6,7 +7,12 @@ namespace cadProdutos.Controllers;
 [Route("[controller]")]
 public class ProdutosController : ControllerBase{
 
-    /*public IActionResult Cadastrar(int? id){
-        if()
-    }*/
+    [HttpPost]
+    public async Task<ActionResult<Produto>> PostProduto(Produto produto){
+        
+        context.Produto.Add(produto);
+        await _context.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetProduto), new { id = produto.Id }, produto);
+    }
 }

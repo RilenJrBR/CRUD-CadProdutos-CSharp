@@ -8,6 +8,13 @@ namespace cadProdutos.Controllers;
 [ApiController]
 public class ProdutosController : ControllerBase{
 
+    private readonly ProdutoContext _context;
+
+    public ProdutosController(ProdutoContext context)
+    {
+        _context = context;
+    }
+
     [HttpPost]
     public async Task<ActionResult<Produto>> cadastrar(Produto produtos)
     {

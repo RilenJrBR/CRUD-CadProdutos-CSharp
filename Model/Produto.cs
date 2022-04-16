@@ -8,18 +8,6 @@ namespace cadProdutos.Models
         public float valor { get; set; }
 
         public int quantEstoque { get; set; }
-
-        private static List<Produto> listagem = new List<Produto>();
-        public static IQueryable<Produto> Listagem
-        { 
-            get
-            {
-                return listagem.AsQueryable();
-            }
-        }
-
-        
-
     }
 }
 

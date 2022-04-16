@@ -18,23 +18,7 @@ namespace cadProdutos.Models
             }
         }
 
-        public static void Salvar(Produto produtos)
-        {
-            var produtosExistente = Produto.listagem.Find(u => u.Id ==produtos.Id);
-            if (produtosExistente != null)
-            {
-                produtosExistente.nome = produtos.nome;
-            }
-        }
-
-        public static void Excluir(long Id)
-        {
-            var produtosExistente = Produto.listagem.Find(u => u.Id == Id);
-            if (produtosExistente != null)
-            {
-                Produto.listagem.Remove(produtosExistente);
-            }
-        }
+        
 
     }
 }

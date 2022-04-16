@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a0/8dukb+tqkIFi8AI3+BqwX4cBKR0XehD9oU6rxwEbjWLGoRViZ/tT+DlhXQLhH3VvyUd9lfewu0CiXdlJ/uQ==",
+  "dgSpecHash": "v21V3r5myPMx6TdZQZP+NItZYRVj05xzo6IfLMWecT6S0pgubllDqSNHMtCiNrpJHE+BJQ3sJU8TAtcfp4RLWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
+  "projectFilePath": "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rilen\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\rilen\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

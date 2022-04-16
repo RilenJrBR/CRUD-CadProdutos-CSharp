@@ -4,16 +4,16 @@ using cadProdutos.Models;
 namespace cadProdutos.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ProdutosController : ControllerBase{
-    
 
     [HttpPost]
-    public async Task<ActionResult<Produto>> PostProduto(Produto produto){
-        
-        _context.Produto.Add(produto);
-        await _context.SaveChangesAsync();
+public async Task<ActionResult<Produto>> cadastrar(Produto produtos)
+{
+    _context.TodoItems.Add(produtos);
+    await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetProduto), new { id = produto.Id }, produto);
-    }    
+    //return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
+    return CreatedAtAction(nameof(GetProduto), new { id = produtos.Id }, produtos);
+}
 }

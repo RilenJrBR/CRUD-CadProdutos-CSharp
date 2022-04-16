@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {}
+    "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {
+    "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
+        "projectUniqueName": "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
         "projectName": "cadProdutos",
-        "projectPath": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
+        "projectPath": "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
         "packagesPath": "C:\\Users\\rilen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\obj\\",
+        "outputPath": "c:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rilen\\AppData\\Roaming\\NuGet\\NuGet.Config"

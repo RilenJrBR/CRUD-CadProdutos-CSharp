@@ -7,7 +7,7 @@ namespace cadProdutos.Controllers;
 [Route("api/[controller]")]
 public class ProdutosController : ControllerBase{
 
-    [HttpPost]
+[HttpPost]
 public async Task<ActionResult<Produto>> cadastrar(Produto produtos)
 {
     _context.TodoItems.Add(produtos);

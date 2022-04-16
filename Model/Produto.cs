@@ -7,7 +7,7 @@ namespace cadProdutos.Models
 
         public float valor { get; set; }
 
-        public int quantEstoque { get; set; }
+        public int estoque { get; set; }
     }
 }
 

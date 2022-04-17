@@ -8,7 +8,5 @@ namespace cadProdutos.Models{
         }
 
         public DbSet<Produto> Produtos { get; set; } = null!;
-    }
-
-    
+    }    
 }

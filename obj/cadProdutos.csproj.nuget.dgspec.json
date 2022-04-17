@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {}
+    "C:\\Users\\rilen\\Desktop\\desafio ibid\\cadProdutos\\cadProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj": {
+    "C:\\Users\\rilen\\Desktop\\desafio ibid\\cadProdutos\\cadProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
+        "projectUniqueName": "C:\\Users\\rilen\\Desktop\\desafio ibid\\cadProdutos\\cadProdutos.csproj",
         "projectName": "cadProdutos",
-        "projectPath": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\cadProdutos.csproj",
+        "projectPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\cadProdutos\\cadProdutos.csproj",
         "packagesPath": "C:\\Users\\rilen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rilen\\Desktop\\Nova pasta (2)\\cadProdutos\\obj\\",
+        "outputPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\cadProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rilen\\AppData\\Roaming\\NuGet\\NuGet.Config"

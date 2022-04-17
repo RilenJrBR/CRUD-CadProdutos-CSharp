@@ -1,6 +1,7 @@
 namespace cadProdutos.Models
 {
     public class Produto{
+        
         public long Id { get; set;}
             
         public string? nome { get; set; }
@@ -8,7 +9,7 @@ namespace cadProdutos.Models
         public float valor { get; set; }
 
         public int estoque { get; set; }
-    }
+    } 
 }
 
 

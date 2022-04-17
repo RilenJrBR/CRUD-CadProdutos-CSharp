@@ -6,7 +6,6 @@ namespace cadProdutos.Models{
             : base(options)
         {
         }
-
-        public DbSet<Produto> Produtos { get; set; } = null!;
+        public DbSet<Produto> Produtos { get; set; } 
     }    
 }

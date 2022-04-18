@@ -75,7 +75,21 @@ public class ProdutosController : ControllerBase
 
         return NoContent();
     }
-   
+    
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteProduto(long id)
+    {
+        var produtos = await _context.Produtos.FindAsync(id);
+        if (produtos == null)
+        {
+            return NotFound();
+        }
+
+        _context.Produtos.Remove(produtos);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
 
     
 }

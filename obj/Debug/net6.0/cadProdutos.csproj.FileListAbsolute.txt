@@ -274,7 +274,6 @@ C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\MessagePack.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Build.Locator.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -298,7 +297,6 @@ C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Entit
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -526,3 +524,9 @@ C:\Users\rilen\Desktop\desafio ibid\cadProdutos\obj\Debug\net6.0\refint\cadProdu
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\obj\Debug\net6.0\cadProdutos.pdb
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\obj\Debug\net6.0\cadProdutos.genruntimeconfig.cache
 C:\Users\rilen\Desktop\desafio ibid\cadProdutos\obj\Debug\net6.0\ref\cadProdutos.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\rilen\Desktop\desafio ibid\cadProdutos\bin\Debug\net6.0\System.Resources.Extensions.dll

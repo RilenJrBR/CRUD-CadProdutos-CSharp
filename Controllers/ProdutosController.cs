@@ -77,8 +77,7 @@ public class ProdutosController : ControllerBase
     }
     
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteProduto(long id)
-    {
+    public async Task<IActionResult> DeleteProduto(long id){
         var produtos = await _context.Produtos.FindAsync(id);
         if (produtos == null)
         {

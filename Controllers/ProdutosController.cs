@@ -21,7 +21,7 @@ public class ProdutosController : ControllerBase
         return _context.Produtos.Any(e => e.Id == id);
     }
 
-    
+    #region snippet_Create
     [HttpPost]
     public async Task<ActionResult<Produto>> cadastrar(Produto produtos){
         _context.Produtos.Add(produtos);
@@ -29,16 +29,16 @@ public class ProdutosController : ControllerBase
 
         return CreatedAtAction(nameof(GetProdutos), new { id = produtos.Id }, produtos);
     }
-  
+    #endregion
 
-    
+    #region snippet_Get
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos(){
         return await _context.Produtos.ToListAsync();
     }
-    
+    #endregion
 
-    
+    #region snippet_GetByID
     [HttpGet("{id}")]
     public async Task<ActionResult<Produto>> GetProduto(long id){
         var produtos = await _context.Produtos.FindAsync(id);
@@ -49,9 +49,9 @@ public class ProdutosController : ControllerBase
 
         return produtos;
     }
-    
+    #endregion
 
-    
+    #region snippet_Update
     [HttpPut("{id}")]
     public async Task<IActionResult> PutProduto(long id, Produto produtos){
         if (id != produtos.Id){
@@ -75,7 +75,9 @@ public class ProdutosController : ControllerBase
 
         return NoContent();
     }
-    
+    #endregion
+
+    #region snippet_Delete
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduto(long id){
         var produtos = await _context.Produtos.FindAsync(id);
@@ -89,6 +91,6 @@ public class ProdutosController : ControllerBase
 
         return NoContent();
     }
-
+    #endregion
     
 }
